@@ -11,26 +11,15 @@ _I2CADDR = const(0x44)
 
 _ID = const(0x00)
 
-_ENABLE = const(0x01)
+_ENABLE = const(0x02)
 
-_ENABLE_HEN = const(0x80)
-_ENABLE_HWT = const(0x70)
+_LEDHS = const(0x04)
+_LEDPS = const(0x05)
 
-_ENABLE_PDRIVE1 = const(0x08)
+_ENABLE_PS = const(0x70)
+_ENABLE_HS = const(0x30)
 
-_C1DATAM = const(0x08)
-_C0DATAM = const(0x09)
-_C0DATAH = const(0x0a)
-_PDRIVER = const(0x0c)
 
-_PDRIVER_PDRIVE0 = const(0x40)
-
-_C1DATAH = const(0x0d)
-_C1DATAL = const(0x0e)
-_C0DATAL = const(0x0f)
-
-_RES = const(0x16)
-_HGAIN = const(0x17)
 
 class HX3600:
     def __init__(self, i2c):
