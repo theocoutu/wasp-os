@@ -7,7 +7,7 @@ sys.path.append(os.path.dirname(os.getcwd()))
 import manifest_240x280
 
 freeze('.', 'watch.py', opt=3)
-freeze('../..', manifest_240x248.manifest +
+freeze('../..', manifest_240x280.manifest +
     (
         'boot.py',
         'draw565.py',
