@@ -106,5 +106,5 @@ class CST816S:
         # Ensure get_event() cannot return anything
         self.event[0] = 0
 
-if __name__ == __main__:
+if __name__ == '__main__':
     print(version)
