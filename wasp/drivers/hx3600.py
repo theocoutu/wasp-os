@@ -13,8 +13,10 @@ _ID = const(0x00)
 
 _ENABLE = const(0x02)
 
-_LEDHS = const(0x04)
-_LEDPS = const(0x05)
+_LED_HS = const(0x04)
+_LEDHON = const(0x10)
+_LED_PS = const(0x05)
+_LEDPON = const(0x20)
 
 _ENABLE_PS = const(0x70)
 _ENABLE_HS = const(0x30)
