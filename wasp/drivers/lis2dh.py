@@ -83,6 +83,7 @@ class LIS2DH:
 
 
 """LIS2HH Driver - i2c Accelerometer
+https://docs.firialabs.com/_modules/lis2dh.html
 """
 
 """
