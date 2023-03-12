@@ -49,7 +49,7 @@ class LIS2DH:
 
         x_accel = xm * 256 + xl
         if x_accel > 32767 :
-            x = x_accel -= 65536
+            x = x_accel - 65536
         else:
             x = x_accel
 
@@ -62,7 +62,7 @@ class LIS2DH:
 
         y_accel = ym * 256 + yl
         if y_accel > 32767 :
-            y = y_accel -= 65536
+            y = y_accel - 65536
         else:
             y = y_accel
 
@@ -74,7 +74,7 @@ class LIS2DH:
 
         z_accel = zm * 256 + zl
         if z_accel > 32767 :
-            z = z_accel -= 65536
+            z = z_accel - 65536
         else:
             z = z_accel
 
